@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .music-player {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #7b1fa2;
+    margin-bottom: 20px;
+  }
+  
+  .song-info {
+    margin-bottom: 15px;
+  }
+  
+  #song-title {
+    font-size: 18px;
+    color: #512da8;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #7b1fa2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #512da8;
+  }
+  
+  .playlist {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .song {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .song:hover {
+    background-color: #e1bee7;
+  }
+  
+  .song.active {
+    background-color: #7b1fa2;
+    color: white;
+  }
+  
